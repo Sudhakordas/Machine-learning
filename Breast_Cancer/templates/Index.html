@@ -1,0 +1,39 @@
+<html>
+    <body bgcolor = #d4a3ae>
+        <div>
+            
+            <p> Our aim is to contribute in human health. </p>
+        
+            <p id = "paragraph-id">
+            <b>
+                 Human Health State     
+            </b>
+            </p>
+        </div>
+            
+        <center>
+            
+            <h1>Breast Cancer Detection </h1> <br>
+            
+            <form method="POST", action = "{{url_for('home')}}">
+                
+                <b> First value : <input type = "text", name = "a", placeholder = "mean_radius"> <br><br>
+                Second value : <input type = "text", name = "b", placeholder = "mean_texture"> <br><br>
+                Third value : <input type = "text", name = "c", placeholder = "mean_perimeter"> <br><br>
+                Fourth value : <input type = "text", name = "d", placeholder = "mean_area"> <br><br>
+                Fifth value : <input type = "text", name = "e", placeholder = "mean_smoothness"> <br><br> <br></b>
+                <input type = "submit", value = 'Predict' >
+                
+            </form>
+            
+            <h2>If you are in the wrong page, please go to 1st page and select appropriate one  </h2> <br>
+            <p>Hope this is helpful for you </p>
+             <a href = '/'>Go back to home page </a>
+            
+        </center>
+        
+       <p>Hope this is helpful for you </p> 
+    </body>    
+    
+    
+</html>
