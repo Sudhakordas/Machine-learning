@@ -1,0 +1,13 @@
+TY  - JOUR
+AU  - Soon, Foo Chong
+AU  - Khaw, Hui Ying
+AU  - Chuah, Joon Huang
+AU  - Kanesan, Jeevan
+PY  - 2018/07/06
+SP  - 
+N2  - The training of deep convolutional neural network (CNN) for classification purposes is critically dependent on the expertise of hyper-parameters tuning. This study aims to minimise the user variability in training CNN by automatically searching and optimising the CNN architecture, particularly in the field of vehicle logo recognition system. For this purpose, the architecture and hyper-parameters of CNN were selected according to the implementation of the stochastic method of particle swarm optimisation on the training-testing data. After obtaining the optimised hyper-parameters, the CNN is fine-tuned and trained to ensure better network convergence and classification performance. In this study, a total of 14,950 vehicle logo images are divided into two independent training and testing sets. In addition, these images are segmented coarsely, thus the requirement of precise logo segmentation is obviated in this work. The learned features of the CNN were sufficiently discriminative to be classified using multiclass Softmax classifier. With implementation using a graphics processing unit (GPU), the computation time of the proposed method is acceptable for real-time application. The experimental results explicitly prove that the authors' approach outperforms most of the state-of-the-art methods, achieving an accuracy of 99.1% over 13 vehicle manufacturers.
+T1  - Hyper-parameters optimisation of deep CNN architecture for vehicle logo recognition
+VL  - 
+DO  - 10.1049/iet-its.2018.5127
+JO  - IET Intelligent Transport Systems
+ER  - 
